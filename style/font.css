@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MB';
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MM';
+    src: url(../font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'MR';
+    src: url(../font/Montserrat-Regular.ttf);
+}
