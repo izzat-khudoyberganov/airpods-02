@@ -116,3 +116,7 @@ body {
     max-width: 552px;
     width: 100%;
 }
+
+.products__content:nth-of-type(2) {
+    align-items: center;
+}
