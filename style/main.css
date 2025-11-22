@@ -41,13 +41,15 @@ body {
     align-items: center;
 }
 
-.header__nav {
+.header__nav,
+.footer__nav {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.nav__link {
+.nav__link,
+.footer__nav-link {
     color: var(--secondary);
     font-family: var(--MB);
     font-size: 20px;
@@ -221,4 +223,16 @@ body {
 .card__btn:hover {
     scale: 1.1;
     cursor: pointer;
+}
+
+.page__footer {
+    margin-top: 55px;
+    background-color: var(--dark-gray);
+    padding: 80px 0;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
